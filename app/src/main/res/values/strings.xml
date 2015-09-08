@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lessons</string>
+    <string name="lessonsToday">Сегодня</string>
+    <string name="btn">Сегодня</string>
+    <string name="btn2">Просмотр расписания</string>
+    <string name="checkWeek">Выбор Недели</string>
+    <string name="checkDay">Выбор дня</string>
+    <string name="upWeek">верхняя неделя</string>
+    <string name="downWeek">нижняя неделя</string>
+    <string name="Monday">Понедельник</string>
+    <string name="Tuesday">Вторник</string>
+    <string name="Wednesday">Среда</string>
+    <string name="Thursday">Четверг</string>
+    <string name="Friday">Пятница</string>
+    <string name="Saturday">Суббота</string>
+    <string name="ShowDayLesson">Расписание на выбранный день</string>
+    <string name="ShowLesson">Показать расписание</string>
+
+</resources>

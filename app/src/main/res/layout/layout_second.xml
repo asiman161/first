@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/checkWeek"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upWeek"
+            android:id="@+id/radioButton"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:onClick="selectWeek" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/downWeek"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:onClick="selectWeek" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/checkDay"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Monday"
+            android:id="@+id/radioButton3"
+            android:onClick="selectDay" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tuesday"
+            android:id="@+id/radioButton4"
+            android:onClick="selectDay" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Wednesday"
+            android:id="@+id/radioButton5"
+            android:onClick="selectDay" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Thursday"
+            android:id="@+id/radioButton6"
+            android:onClick="selectDay" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Friday"
+            android:id="@+id/radioButton7"
+            android:onClick="selectDay" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Saturday"
+            android:id="@+id/rb8"
+            android:onClick="selectDay"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ShowDayLesson"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ShowLesson"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="setLessonToday"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lessonsToday"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToNewActivity"
+        android:singleLine="true" />
+
+</LinearLayout>
